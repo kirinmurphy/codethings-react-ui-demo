@@ -9,22 +9,22 @@
   padding:2vw;
 }
 
-.widgets > section { 
+.widget { 
   display:flex;
   border:1px solid #ccc;
 }
 
-.widgets > section > * {
+.widget > * {
   padding:20px;
   text-align:left;
 }
 
-.widgets > section > header {
+.widget__header {
   width:33%;
   background:#f0f0f0;
 }
 
-.widgets > section > .example {
+.widget__example {
   background:#fff;
   position:relative;
   width:67%;

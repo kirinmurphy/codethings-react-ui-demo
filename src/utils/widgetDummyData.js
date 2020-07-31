@@ -17,5 +17,6 @@ export const dummyData = {
     "https://i.pinimg.com/originals/2d/35/bc/2d35bc90c15cd3424ed52e3bee822440.gif",
     "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FD0ZwUu7NTsvug%2Fgiphy.gif&f=1&nofb=1",
     "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F1SCWMjb1FUOu4%2Fgiphy.gif&f=1&nofb=1"
-  ]
+  ],
+  iframeUrl: "https://gif.tv/"
 };

@@ -3013,10 +3013,10 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codethings-react-ui@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/codethings-react-ui/-/codethings-react-ui-1.0.20.tgz#088c96d0fbe2cd17827c24145d8bc3642add1a97"
-  integrity sha512-hjYDMk1LRhB6IQiuRa7TGl4SYSKWVsUUN7yxPjhYuFnfyJah7/GT4/aPEvi/BqEe3vvSWX4ZfhA68u861J9Zbw==
+codethings-react-ui@1.0.26:
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/codethings-react-ui/-/codethings-react-ui-1.0.26.tgz#5051d6e9fd0f08b2306ca1b31c68882c63f87f9f"
+  integrity sha512-VcIfHPohjvpNIbRHltkmXAjY1BI6AG874KLzPZDlQW4gvMSHoY7mS7iX7qr4a3hWvrbahuSCEJZr5jz2MjqgIw==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.30"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"

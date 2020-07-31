@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import 'codethings-react-ui/dist/styles.css';
 import './App.css';
+
 import { dummyData } from './utils/widgetDummyData.js';
+import { Widget } from './components/Widget.js';
 
 import { 
   Ellipticizer, 
@@ -14,20 +16,6 @@ import {
   getFormattedChapters,
   BackLink
 } from 'codethings-react-ui';
-
-
-function Widget ({ name, children }) {
-  return (
-    <section>
-      <header>
-        <h3>&lt;{name} /&gt;</h3>
-      </header>
-      <div className="example">
-        {children}
-      </div>
-    </section>
-  );
-}
 
 function App() {
   const [demoPopupActive, setDemoPopupActive]= useState(false);
@@ -63,7 +51,7 @@ function App() {
         <CommaSeparatedList name="title" collection={dummyData.commaSeparatedList} />         
       </Widget>
 
-      <Widget name="Dropdown">
+      <Widget name="Dropdownizer">
         <div className="variation">
           <Dropdownizer
             title="Open Dropdown Below (defaut)"
@@ -91,7 +79,7 @@ function App() {
         <div className="multimedia-option">
           <Multimediaizer
             type="iframe"
-            iframeUrl="http://gif.tv/"
+            iframeUrl={dummyData.iframeUrl}
           />
         </div>
       </Widget>
