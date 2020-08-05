@@ -13,7 +13,6 @@ export const dummyData = {
   ],  
   slideshowImages: [
     "https://media.giphy.com/media/3ohzAFDDUYgmU8qi6k/giphy.gif",
-    "https://i.pinimg.com/originals/5d/49/ac/5d49ac6b7dccc7e58b071b6f180b7901.gif",
     "https://i.pinimg.com/originals/2d/35/bc/2d35bc90c15cd3424ed52e3bee822440.gif",
     "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FD0ZwUu7NTsvug%2Fgiphy.gif&f=1&nofb=1",
     "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F1SCWMjb1FUOu4%2Fgiphy.gif&f=1&nofb=1"

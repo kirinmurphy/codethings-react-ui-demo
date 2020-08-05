@@ -52,15 +52,15 @@ function App() {
       </Widget>
 
       <Widget name="Dropdownizer">
-        <div className="variation">
+        <div className="variation dropdown-example">
           <Dropdownizer
-            title="Open Dropdown Below (defaut)"
+            title="Dropdown Below (defaut)"
             content={dropdownItems} 
           />
         </div>
-        <div className="variation">
+        <div className="variation dropdown-example">
           <Dropdownizer
-            title="Open Dropdown Above"
+            title="Dropdown Above"
             content={dropdownItems}
             orientation={"above"}
           />
@@ -76,7 +76,7 @@ function App() {
       </Widget>
 
       <Widget name="Multimediaizer type=&quot;iframe&quot;">
-        <div className="multimedia-option">
+        <div className="variation multimedia-example">
           <Multimediaizer
             type="iframe"
             iframeUrl={dummyData.iframeUrl}
@@ -85,7 +85,7 @@ function App() {
       </Widget>
 
       <Widget name="Multimediaizer type=&quot;video&quot;">
-        <div className="multimedia-option multimedia-option-video">
+        <div className="variation multimedia-example">
           <Multimediaizer
             type="video"
             video={{
@@ -102,7 +102,7 @@ function App() {
       </Widget>
 
       <Widget name="Multimediaizer type=&quot;slideshow&quot;">
-        <div className="multimedia-option">
+        <div className="variation multimedia-example">
           <Multimediaizer
             type="slideshow"
             images={dummyData.slideshowImages}
