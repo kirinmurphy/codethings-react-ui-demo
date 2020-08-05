@@ -29,6 +29,15 @@ function App() {
   
   return (
     <div className="widgets">
+
+      <div class="intro">
+        <header>
+          <h1>codethings-react-ui library</h1>
+        </header>
+
+         <a href="https://www.npmjs.com/package/codethings-react-ui">NPM Package</a> | <a href="https://github.com/kirinmurphy/codethings-react-ui/">Github repo</a> | <a href="https://github.com/kirinmurphy/codethings-react-ui/blob/master/src/widgets/README.md">Example code</a>
+      </div>
+
       <Widget name="LoadingIcon">
         <LoadingIcon />
       </Widget>

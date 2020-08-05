@@ -3,6 +3,14 @@
   --page-fontFamily: Verdana;
 }
 
+h1 {
+  margin-bottom:.5rem;
+}
+
+.intro {
+  margin-bottom:1.5rem;
+ }
+
 .widgets {
   max-width:1500px;
   margin:0 auto;
