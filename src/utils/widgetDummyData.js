@@ -12,10 +12,13 @@ export const dummyData = {
     { name: "item3", isActive:false }
   ],  
   slideshowImages: [
-    "https://media.giphy.com/media/3ohzAFDDUYgmU8qi6k/giphy.gif",
-    "https://i.pinimg.com/originals/2d/35/bc/2d35bc90c15cd3424ed52e3bee822440.gif",
-    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FD0ZwUu7NTsvug%2Fgiphy.gif&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F1SCWMjb1FUOu4%2Fgiphy.gif&f=1&nofb=1"
+    "https://media.giphy.com/media/65tCn6AgsJn1e/giphy.gif",
+    "https://i2.kym-cdn.com/photos/images/original/000/511/116/7b7.gif",
+    "https://media.giphy.com/media/xsATxBQfeKHCg/giphy.gif",
+    "https://media.giphy.com/media/10hO9c6zalcju/giphy.gif",
+    "https://heavy.com/wp-content/uploads/2014/03/922.gif?w=550",
+    "https://i2.wp.com/www.wehuntedthemammoth.com/wp-content/uploads/2018/08/anigif_optimized-23932-1455822037-3.gif?resize=600%2C338",
+    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fe4jvIeZwYUhiw%2Fgiphy.gif&f=1&nofb=1"
   ],
   iframeUrl: "https://gif.tv/"
 };

@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="widgets">
 
-      <div class="intro">
+      <div className="intro">
         <header>
           <h1>codethings-react-ui library</h1>
         </header>
