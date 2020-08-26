@@ -35,6 +35,10 @@ h1 {
   position:relative;
 }
 
+[data-widget-name="LoadingIcon"] .loading-icon {
+  transform:translateY(2px);
+}
+
 @media(min-width:900px) {
   .widget { 
     display:flex;

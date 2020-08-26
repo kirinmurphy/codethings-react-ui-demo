@@ -13,7 +13,6 @@ import {
   LoadingIcon,
   Popupizer,
   Multimediaizer,
-  getFormattedChapters,
   BackLink
 } from 'codethings-react-ui';
 
@@ -97,15 +96,7 @@ function App() {
         <div className="variation multimedia-example">
           <Multimediaizer
             type="video"
-            video={{
-              sources: [
-                { src: 'https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_30MB.mp4', type: 'video/mp4' }
-              ],
-              chapters: getFormattedChapters([
-                { startTime: '0:00', title: 'Chapter 1' },
-                { startTime: '0:05', title: 'Chapter 2' }
-              ])
-            }}
+            video={dummyData.videoConfig}
           />          
         </div>
       </Widget>
