@@ -1,5 +1,3 @@
-import { getFormattedChapters } from "codethings-react-ui";
-
 export const dummyData = {
   messageTooLongForSpace: 'There\'s no way this text is gonna fit.',
   markdownSource: '_testtttt_ [link](https://www.google.com)',
@@ -28,9 +26,9 @@ export const dummyData = {
       { src: 'https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_30MB.mp4', type: 'video/mp4' }
     ],
     poster: "http://images.hellogiggles.com/uploads/2016/08/12051540/Arrested_Development__Meet_Buster_Bluth.jpg",
-    chapters: getFormattedChapters([
+    chapters: [
       { startTime: '0:00', title: 'Chapter 1' },
       { startTime: '0:05', title: 'Chapter 2' }
-    ])
+    ]
   }
 };
