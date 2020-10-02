@@ -1,6 +1,7 @@
 export const dummyData = {
   messageTooLongForSpace: 'There\'s no way this text is gonna fit.',
-  markdownSource: '_testtttt_ [link](https://www.google.com)',
+  messageWaaaayTooLongForSpace: 'The beginning of this long message is important, the middle not as much, and the end is super important!',
+  markdownSource: 'We have markdown with some **bold stuff**, _italicized stuff_, and even [links](https://www.google.com)!',
   commaSeparatedList: ['thing', 
     '[another thing](https://www.gogle.com)', 
     'yet another thing', 
@@ -30,5 +31,10 @@ export const dummyData = {
       { startTime: '0:00', title: 'Chapter 1' },
       { startTime: '0:05', title: 'Chapter 2' }
     ]
-  }
+  },
+  sortableListCollection: [
+    "List item 1",
+    "List item 2",
+    "List item 3 that's so long that we need that CenterTextEllipticizer in there so that our list doesn't get too long and we can still get the best parts of the sentence."
+  ]
 };

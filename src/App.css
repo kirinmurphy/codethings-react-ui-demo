@@ -7,12 +7,23 @@ h1 {
   margin-bottom:.5rem;
 }
 
+button {
+  padding:.5rem 1rem;
+  background:#ddd;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+button:hover {
+  background:#bbb;
+}
+
 .intro {
   margin-bottom:1.5rem;
  }
 
 .widgets {
-  max-width:1500px;
+  max-width:1200px;
   margin:0 auto;
   padding:2vw;
 }
@@ -62,3 +73,7 @@ h1 {
 
 .dropdown-example .dropdownizer { width: 240px; }
 .dropdown-example .dropdownizer dt { text-align:right; }
+
+.popupizer__content {
+  padding:2rem;
+}
