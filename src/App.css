@@ -3,9 +3,8 @@
   --page-fontFamily: Verdana;
 }
 
-h1 {
-  margin-bottom:.5rem;
-}
+
+h1 { font-size:var(--fontSize-title-big); }
 
 button {
   padding:.5rem 1rem;
@@ -18,21 +17,27 @@ button:hover {
   background:#bbb;
 }
 
-.intro {
-  margin-bottom:1.5rem;
- }
-
 main {
   max-width:1200px;
   margin:0 auto;
   padding:2vw;
 }
 
-/* Widgets! */
-.widgets > header {
-  margin-bottom:.5rem;
+section:not(:last-of-type) {
+  margin-bottom:1.5rem;
 }
 
+section:not(:first-of-type) > header {
+  padding-bottom:.25rem;
+  margin-bottom:.25rem;
+}
+
+section > header > * {
+  display:inline-block;
+  margin-right:1rem;
+}
+
+/* Widgets! */
 .widget { 
   margin-bottom:2vw;
 }
@@ -49,6 +54,21 @@ main {
 .widget__example {
   background:#fff;
   position:relative;
+}
+
+/* Theme stuff */
+.starter-css > header {
+  border-bottom:1px solid #bbb;
+}
+
+.starter-css ul {
+  margin-left: 1.5rem;
+}
+
+.starter-css p strong {
+  display:block; 
+  padding-top:.75rem;
+  font-weight:normal;
 }
 
 @media(min-width:900px) {
