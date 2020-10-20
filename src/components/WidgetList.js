@@ -4,7 +4,7 @@ import { Widget } from './Widget.js';
 import { dummyData } from '../utils/widgetDummyData.js';
 
 import { 
-  Ellipticizer,
+  // Ellipticizer,
   Markdownizer, 
   CommaSeparatedList, 
   LoadingIcon,
@@ -33,11 +33,11 @@ export function WidgetList () {
         <BrowserBackLink />
       </Widget>
 
-      <Widget name="Ellipticizer" >
+      {/* <Widget name="Ellipticizer" >
         <Ellipticizer width="240px">
           {dummyData.messageTooLongForSpace}
         </Ellipticizer>
-      </Widget>
+      </Widget> */}
 
       <Widget name="CenterTextEllipticizer" >
         <CenterTextEllipticizer rawText={dummyData.messageWayTooLongForSpace}/>

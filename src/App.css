@@ -24,7 +24,7 @@ main {
 }
 
 section:not(:last-of-type) {
-  margin-bottom:1.5rem;
+  margin-bottom:2.5rem;
 }
 
 section:not(:first-of-type) > header {
@@ -57,15 +57,15 @@ section > header > * {
 }
 
 /* Theme stuff */
-.starter-css > header {
+.markdown-section > header {
   border-bottom:1px solid #bbb;
 }
 
-.starter-css ul {
+.markdown-section ul {
   margin-left: 1.5rem;
 }
 
-.starter-css p strong {
+.markdown-section p strong {
   display:block; 
   padding-top:.75rem;
   font-weight:normal;

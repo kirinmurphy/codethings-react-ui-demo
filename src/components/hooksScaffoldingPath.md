@@ -1,0 +1,3 @@
+- **useDebouncer** - reactified debouncer function
+- **useTriggerOverride** - hijack event trigger and fire a callback if a certain condition is met.
+- **useCallbackOnExternalEventTrigger** - Check if trigger event happens outside of an element's boundaries.
